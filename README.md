@@ -1,1 +1,1 @@
-# samanthahomler.github.io
+# samanthahomler
