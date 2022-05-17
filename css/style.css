@@ -40,7 +40,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: ambroise-std, serif;
+  font-family: ivypresto-display, serif;
   font-weight: 900;
   font-style: normal;
 }
@@ -487,31 +487,26 @@ section {
   }
 }
 #section-1 h2 {
-  font-family: ambroise-std, serif;
+  font-family: ivypresto-display, serif;
   color: #71503A;
+  font-weight: 500;
 }
 #section-1 p {
   font-family: gravesend-sans, sans-serif;
   font-size: 1.3em;
   font-weight: 400;
+  color: #71503A;
   line-height: 1.2;
-  max-width: 70%;
-  text-align: center;
-  margin: auto;
+  max-width: 90%;
+  text-align: left;
   margin-bottom: 1em;
-}
-@media (min-width: 768px) {
-  #section-1 p {
-    margin: auto;
-  }
 }
 #section-1 img {
   border-radius: 50%;
 }
 
 #section-2 {
-  background-image: url(../img/EP_darksection_background_straight.png);
-  background-color: #f2f2f2;
+  background-color: #71503A;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1560,13 +1555,12 @@ section {
   }
 }
 .hero h1 {
+  font-family: ivypresto-display, serif;
   font-weight: 100;
   font-size: 4em;
-  letter-spacing: 5px;
-  line-height: 0.8;
+  line-height: 1;
   color: #F5D8BC;
   text-align: center;
-  font-family: ambroise-std, serif;
   z-index: 10;
 }
 @media (min-width: 768px) {
@@ -1574,13 +1568,14 @@ section {
     font-size: 9em;
     line-height: 0.3;
     text-align: left;
+    font-weight: 100;
   }
 }
 .hero h2 {
-  font-family: ambroise-std, serif;
+  font-family: ivypresto-display, serif;
   font-weight: 100;
   font-size: 4em;
-  line-height: 0;
+  line-height: 0.3;
   text-align: center;
   color: #F5D8BC;
 }

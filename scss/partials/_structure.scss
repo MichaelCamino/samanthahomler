@@ -85,20 +85,19 @@ section {
     h2 {
         font-family: $font-family-serif;
         color: $color-accent-dark;
+        font-weight: 500;
     }
 
     p {
-        @media (min-width: $breakpoint-small) {
-            margin: auto;
-        }
+        @media (min-width: $breakpoint-small) {}
 
         font-family: $font-family-sans;
         font-size: 1.3em;
         font-weight: 400;
+        color: $color-accent-dark;
         line-height: 1.2;
-        max-width: 70%;
-        text-align: center;
-        margin: auto;
+        max-width: 90%;
+        text-align: left;
         margin-bottom: 1em;
         // span {
         //     font-size: 1.5em;
@@ -115,8 +114,7 @@ section {
 
 
 #section-2 {
-    background-image: url(../img/EP_darksection_background_straight.png);
-    background-color: $color-background-light;
+    background-color: $color-accent-dark;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -1158,19 +1156,19 @@ section {
     }
 
     h1 {
+        font-family: $font-family-serif;
         font-weight: 100;
         font-size: 4em;
-        letter-spacing: 5px;
-        line-height: .8;
+        line-height: 1;
         color: $color-accent-light;
         text-align: center;
-        font-family: $font-family-serif;
         z-index: 10;
 
         @media (min-width: $breakpoint-small) {
             font-size: 9em;
             line-height: .3;
             text-align: left;
+            font-weight: 100;
         }
     }
 
@@ -1178,7 +1176,7 @@ section {
         font-family: $font-family-serif;
         font-weight: 100;
         font-size: 4em;
-        line-height: 0;
+        line-height: .3;
         text-align: center;
         color: $color-accent-light;
 
