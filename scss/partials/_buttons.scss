@@ -1,0 +1,116 @@
+/* BUTTONS */
+
+.button,
+button {
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: rgb(54, 54, 54);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: $color-accent-light ;
+    padding: 1em;
+    margin: 1em 0;
+    z-index: 30;
+    //   box-shadow:  inset 0 -2px 4px $color-background-light;
+    border-radius: 25px;
+    letter-spacing: 1px;
+
+    span {
+        position: relative;
+        z-index: 30;
+    }
+
+    &:hover {
+        color: $color-background-dark;
+        transition: all .6s ease-in-out;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 490%;
+        width: 140%;
+        background: $color-background-light;
+        transition: all .6s ease-in-out;
+        transform: translateX(-110%) translateY(-10%) rotate(45deg);
+    }
+
+}
+
+.below-menu {
+    margin-top: 3em;
+
+    &:after {
+        transform: translateX(-135%) translateY(-10%) rotate(45deg);
+    }
+
+    &:hover::after {
+        transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    }
+}
+
+.below-coffee {
+    margin-top: 1.5em;
+
+    &:after {
+        transition: all .5s ease-in-out;
+        transform: translateX(-130%) translateY(-30%) rotate(45deg);
+    }
+
+    &:hover::after {
+        transition: all .5s ease-in-out;
+        transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    }
+}
+
+.below-video {
+    margin-top: 2em;
+
+    &:after {
+        transition: all .6s ease-in-out;
+        transform: translateX(-140%) translateY(-10%) rotate(45deg);
+    }
+
+    &:hover::after {
+        transition: all .6s ease-in-out;
+        transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    }
+}
+
+.below-map {
+    margin-top: 3em;
+
+    &:after {
+        transform: translateX(-170%) translateY(5%) rotate(45deg);
+    }
+
+    &:hover::after {
+        transform: translateX(-40%) translateY(-25%) rotate(45deg);
+    }
+}
+
+.playlist {
+    &:after {
+        transform: translateX(-115%) translateY(-5%) rotate(45deg);
+    }
+
+    &:hover::after {
+        transform: translateX(-30%) translateY(-25%) rotate(45deg);
+    }
+}
+
+.below-coffee {
+    &:after {
+        transform: translateX(-95%) translateY(-5%) rotate(45deg);
+    }
+
+    &:hover::after {
+        transform: translateX(-30%) translateY(-25%) rotate(45deg);
+    }
+}
