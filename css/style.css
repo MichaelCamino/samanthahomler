@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BASE TEXT FONTS */
 body {
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,7 +135,7 @@ hr {
 /* SECTION HEADING */
 .section-heading {
   font-size: 1em;
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -492,9 +492,9 @@ section {
   font-weight: 500;
 }
 #section-1 p {
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 300;
   color: #71503A;
   line-height: 1.2;
   max-width: 80%;
@@ -505,7 +505,17 @@ section {
 }
 @media (min-width: 768px) {
   #section-1 p {
-    margin-left: 17%;
+    margin-left: 12%;
+  }
+}
+@media (min-width: 1050px) {
+  #section-1 p {
+    margin-left: 13%;
+  }
+}
+@media (min-width: 1250px) {
+  #section-1 p {
+    margin-left: 13%;
   }
 }
 #section-1 .noradius {
@@ -526,118 +536,14 @@ section {
   #section-2 {
     padding-top: 7em;
   }
-  #section-2 .menu-parent {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-    grid-template-columns: 50% 50%;
-    -ms-grid-rows: (auto)[4];
-    grid-template-rows: repeat(4, auto);
-    padding-bottom: 2em;
-  }
-  #section-2 .menu-parent > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-  #section-2 .menu-parent > *:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-  }
-  #section-2 .menu-parent > *:nth-child(3) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-  #section-2 .menu-parent > *:nth-child(4) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-  }
-  #section-2 .menu-parent > *:nth-child(5) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
-  #section-2 .menu-parent > *:nth-child(6) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 2;
-  }
-  #section-2 .menu-parent > *:nth-child(7) {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
-  }
-  #section-2 .menu-parent > *:nth-child(8) {
-    -ms-grid-row: 4;
-    -ms-grid-column: 2;
-  }
-  #section-2 .wreathwrapper {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
-  }
-  #section-2 .menu {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 4;
-    grid-row: 1/5;
-  }
-  #section-2 .full-menu-button {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
-  }
 }
-#section-2 .row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-#section-2 .menu {
-  text-align: center;
-  font-size: 0.8em;
-}
-#section-2 p.drink-name {
-  font-size: 3em;
-  letter-spacing: 2px;
+#section-2 ul {
+  list-style: none;
   color: #F5D8BC;
-  font-weight: 400;
-  margin: auto;
-  margin-top: 2em;
-}
-#section-2 p.drink-ingredients {
-  color: #dfdfdf;
-  font-size: 1.3em;
-  line-height: 1.3;
-  font-family: gravesend-sans, sans-serif;
-  font-weight: 400;
-  margin: auto;
-}
-#section-2 #wreath {
-  display: none;
-}
-@media (min-width: 768px) {
-  #section-2 #wreath {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 7em;
-  }
-}
-#section-2 .wreathpic {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-@media (min-width: 768px) {
-  #section-2 .wreathpic {
-    display: none;
-  }
+  font-family: interstate, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 100;
 }
 
 #section-3 {
@@ -662,7 +568,7 @@ section {
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
 }
 #section-3 p {
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-size: 1.3em;
   font-weight: 400;
   line-height: 1.2;
@@ -876,7 +782,7 @@ section {
   padding-bottom: 3em;
 }
 #section-4 p {
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-size: 1.3em;
   text-align: center;
   color: #f2f2f2;
@@ -1031,7 +937,7 @@ section {
 }
 #section-5 p.name {
   font-size: 1.5em;
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   letter-spacing: 2px;
   line-height: 2.5vh;
   font-weight: 300;
@@ -1044,7 +950,7 @@ section {
 }
 #section-5 p.job {
   font-size: 1.3em;
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-weight: 500;
   margin: auto;
   margin-bottom: 1em;
@@ -1230,7 +1136,7 @@ section {
 }
 #section-6 h3 {
   color: #71503A;
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-size: 2em;
   font-weight: 400;
   font-style: italic;
@@ -1404,7 +1310,7 @@ section {
   }
 }
 #section-7 .right h3 {
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   color: #71503A;
   font-size: 2em;
   font-style: italic;
@@ -1515,7 +1421,7 @@ section {
 }
 #section-8 h3 {
   color: #f2f2f2;
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 1em;
@@ -1732,7 +1638,7 @@ section {
           clip-path: circle(0px at calc(100% - 2.15em) 2.1em);
   -webkit-transition: 0.7s all ease-in-out;
   transition: 0.7s all ease-in-out;
-  font-family: gravesend-sans, sans-serif;
+  font-family: interstate, sans-serif;
   font-weight: 100;
   z-index: 11;
 }
