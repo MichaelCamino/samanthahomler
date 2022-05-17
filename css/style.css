@@ -497,11 +497,18 @@ section {
   font-weight: 400;
   color: #71503A;
   line-height: 1.2;
-  max-width: 90%;
-  text-align: left;
+  max-width: 80%;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 9%;
   margin-bottom: 1em;
 }
-#section-1 img {
+@media (min-width: 768px) {
+  #section-1 p {
+    margin-left: 17%;
+  }
+}
+#section-1 .noradius {
   border-radius: 50%;
 }
 
@@ -2085,8 +2092,8 @@ body {
 
 .animate-drop-in-with-delay *,
 [data-sectionstate=inactive] .animate-drop-in-with-delay * {
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   -webkit-transform: translate(20px, 0);
           transform: translate(20px, 0);
   opacity: 0;
