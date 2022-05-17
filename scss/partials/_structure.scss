@@ -57,7 +57,11 @@ footer {
         }
 
         &:hover {
-            background-color: $color-accent-dark;
+            background-color: $color-accent-light;
+
+            @media (min-width: $breakpoint-small) {
+                background-color: $color-accent-dark;
+            }
         }
 
         a {
