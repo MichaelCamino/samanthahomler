@@ -583,7 +583,7 @@ section {
 #section-3 img {
   -webkit-transform: scale(1);
           transform: scale(1);
-  margin-left: 0;
+  margin-left: -1.5%;
 }
 @media (min-width: 768px) {
   #section-3 img {

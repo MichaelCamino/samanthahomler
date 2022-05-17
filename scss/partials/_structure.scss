@@ -231,7 +231,7 @@ section {
 
     img {
         transform: scale(1);
-        margin-left: 0;
+        margin-left: -1.5%;
 
         @media (min-width: $breakpoint-small) {
             margin-left: -5%;
