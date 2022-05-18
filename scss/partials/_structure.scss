@@ -40,16 +40,21 @@ footer {
     display: flex;
     justify-content: center;
     padding: 0;
+    position: relative;
 
     .button {
+        position: absolute;
         font-size: 2em;
         background-color: $color-accent-light;
         border: 1px solid $color-accent-dark;
         color: $color-accent-dark;
-        padding: 6px 0;
+        padding: 2px 0;
         transition: 400ms ease;
         border-radius: 15px;
         font-weight: 200;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 100;
 
         span {
             position: relative;

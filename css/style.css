@@ -401,17 +401,23 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
+  position: relative;
 }
 footer .button {
+  position: absolute;
   font-size: 2em;
   background-color: #F5D8BC;
   border: 1px solid #71503A;
   color: #71503A;
-  padding: 6px 0;
+  padding: 2px 0;
   -webkit-transition: 400ms ease;
   transition: 400ms ease;
   border-radius: 15px;
   font-weight: 200;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  z-index: 100;
 }
 footer .button span {
   position: relative;
