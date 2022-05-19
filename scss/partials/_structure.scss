@@ -24,12 +24,12 @@ body {
     }
 
     .site-id {
-        display: flex;
-        align-items: center;
+
+        z-index: 50;
     }
 
     .logo {
-        max-width: 50px;
+        width: 50px;
     }
 }
 
@@ -990,7 +990,7 @@ section {
     padding: 0;
 
     @media (min-width: $breakpoint-small) {
-        padding: 3em;
+        padding: 1em;
     }
 
     h1 {
@@ -1007,6 +1007,7 @@ section {
             line-height: .3;
             text-align: left;
             font-weight: 100;
+            padding-left: 0;
         }
     }
 

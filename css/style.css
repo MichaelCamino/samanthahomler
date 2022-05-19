@@ -380,15 +380,10 @@ body {
   margin: 0;
 }
 .site-header .site-id {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  z-index: 50;
 }
 .site-header .logo {
-  max-width: 50px;
+  width: 50px;
 }
 
 /* SITE-FOOTER */
@@ -1312,7 +1307,7 @@ section {
 }
 @media (min-width: 768px) {
   .hero {
-    padding: 3em;
+    padding: 1em;
   }
 }
 .hero h1 {
@@ -1330,6 +1325,7 @@ section {
     line-height: 0.3;
     text-align: left;
     font-weight: 100;
+    padding-left: 0;
   }
 }
 .hero h2 {
